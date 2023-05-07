@@ -1,7 +1,15 @@
-
+import { BrowserRouter } from "react-router-dom";
+import './App.css';
+import { Login } from "./components/pages/Login"
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div>
+
+      <Login />
+      {/* <BrowserRouter>
+
+      </BrowserRouter> */}
+    </div>
   );
 }
 
